@@ -1,0 +1,80 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    padding-left: 50px;
+    border: 1px solid black;
+    text-align: left;
+}
+
+nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px; 
+}
+
+article{
+    margin-left: 30px;
+    padding-left: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    margin-left: 30px;
+    padding-left: 50px;
+}
+
+
+
+.titles{
+    padding-left: 30px;
+}
+
+.text{
+    padding-left: 70px;
+}
+
+.img_conteudo{
+    width: 250px;
+    height: 250px
+}
+
+.legenda{
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+
+#sobre_autor{
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 30px;
+    border: 1px solid gray;
+    display: flex;
+}
+
+#img_autor{
+    margin-left: 30px;
+    border-radius: 45px;
+}
+
+#descr_autor{
+    margin-left: 30px;
+    color: gray;
+}
+
+#nav, #footer_nav{
+    
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}

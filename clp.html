@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLP: O básico</title>
+    <link rel="shortcut icon" href="/midia/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./clp.css">
+</head>
+<body>
+    <header>
+        <img src="/midia/simbolo" alt="MiSchool">
+        <h1>MiSchool: Para aprender</h1>
+    </header>
+    <nav>
+        <ul id="nav">
+            <li><a href="./sobre_mim.html">Sobre mim</a></li>
+            <li><a href="">Mais conteúdos</a></li>
+            <li><a href="">Outros projetos</a></li>
+            <li><a href="./login.html">Cadastre-se</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link importante</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div id="sobre_autor">
+            <img id="img_autor" src="/midia/autor.jpeg" width="60" alt="Miguel Andrade, autor do texto">
+            <p id="descr_autor"><strong>
+                Escrito Por: Miguel Andrade</strong><br>Estudante do Senai Santos
+            </p>
+        </div>
+        <h1 class="titles">CLP: O básico para entender</h1>
+        
+        <p class="text">
+            Depois de algumas boas aulas sobre esse tema, decidi escrever aqui sobre o assunto, sempre levando em conta que ainda estou aprendendo e que a ideia aqui é explicar para leigos o básico do que é e como funciona o assunto descrito.
+        </p>
+    </section>
+    <article>
+        <h1 class="titles">Mas o que é um CLP?</h1>
+
+        <p class="text">
+            CLP é a sigla para controlador lógico programável, muito utilizado nas mais diversas áreas das indústrias ao redor do mundo. Possui a função de receber sinais de sensores, processar os mesmos através do comando lógico escrito e dar uma saída em forma de sinal. Aqui, vamos destrinchar o assunto para um melhor entendimento e rápida compreensão.
+        </p>
+        
+        <h1 class="titles">Estrutura de um CLP</h1>
+        
+        <p class="text">
+            Todo CLP que você observar terá ao menos esses componentes em sua forma física: Conexões de entrada, conexões de saída e tela LCD de visualização, comforme a imagem abaixo: 
+        </p>
+        
+        <img  class="img_conteudo" src="/midia/img_clic.jpeg" alt="Imagem de um CLP modelo CLIC da WEG" title="Imagem de um CLP modelo CLIC da WEG">
+        
+        <p class="legenda">
+            <i>Foto de um CLP CLIC 02 da WEG, muito utilizado em escolas técnincas como o SENAI.</i> 
+        </p>
+        
+        <h1 class="titles">Programação de um CLP</h1>
+        
+        <p class="text">
+            Há duas formas de gravar um comando para o controlador: direto na interface do mesmo ou conectando um cabo a um computador, assim escrevendo e transferindo o código através do simulador da WEG chamado clic 02 edit. Ainda falando sobre a programação, o a linguagem mais utilizada é o ladder, por sua fácil compreensão e eficiênica na edição por outros profissionais da área. Logo abaixo segue uma representação da programação em ladder:
+        </p>
+        <img id="img_conteudo" src="/midia/img_ladder.png" alt="programação em ladder">
+    
+        <p class="legenda">
+            <i>Exemplo de uma programação na linguagem ladder.</i>
+        </p>
+        <p class="text">
+            Para eviitar preocupações, irei explicar para vocês o que são os traços e os círculos nesse circuito:
+        </p>
+        
+        <h1 class="titles">Compreendendo o ladder</h1>
+        
+        <p class="text">
+            Pela imagem acima, conseguimos entender a essência de seu funcionamento, semelhante ao acionamento de relés:
+        </p>
+        
+        <ul class="text">
+            <li>
+                Os círculos representam a ativção de algo, no caso as sáidas, que podemos analogar com o acionamento de um relé.
+            </li>
+            <li>
+                as retas verticais e paralelas são as "chaves", que abrem ou fecham dependendo do acionamento e se é normal fechado ou aberto. É comparaável aos contatos de um relé qualquer. 
+            </li>
+        </ul>
+        <img src="/midia/img_comparacao.png" alt="">
+    </article>
+    <footer>
+        <p>Gostou do conteúdo? Diga o que achou ao  produtor:
+        </p>
+        <input type="text" placeholder="Deixe seu conmetário">
+        <ul id="footer_nav">
+            <li><a href="./sobre_mim.html">Sobre mim</a></li>
+            <li><a href="">Outros projetos</a></li>
+            <li><a href="./login.html">Cadastre-se</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Link importante</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
